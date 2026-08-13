@@ -14,7 +14,7 @@ A lightweight AI agent toolkit for programmatic file and code operations. This r
 **Getting Started**
 
 - **Prerequisites:** Python 3.10+ and Git.
-- **Clone:** `git clone <repo-url>`
+- **Clone:** `git clone https://github.com/mmuchsin/ai-agent.git`
 - **Create virtualenv:** `python -m venv .venv && source .venv/bin/activate`
 - **Install dependencies:** if a dependency manager is provided use it (for example `pip install -e .` or `pip install -r requirements.txt`).
 
@@ -32,7 +32,7 @@ python main.py
 - `prompts.py`: system and prompt templates used by the agent.
 - `functions/`: implementations for `get_file_content`, `get_files_info`, `run_python_file`, and `write_file`.
 
-**Using uv (optional)**
+**Using uv (recommended)**
 
 This project includes a `uv.lock` file and is compatible with the `uv` Python package manager. If you prefer `uv` over `pip` or `pipx`, install `uv` and sync dependencies from the lockfile.
 
